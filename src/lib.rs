@@ -1,1 +1,1 @@
-
+use foreign_crate::*;
