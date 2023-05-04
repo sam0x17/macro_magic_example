@@ -7,4 +7,5 @@ edition = "2021"
 proc-macro = true
 
 [dependencies]
+quote = "1"
 macro_magic = { version = "0.3", features = ["proc_support"] }

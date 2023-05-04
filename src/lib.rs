@@ -1,3 +1,8 @@
 use macros_crate::*;
 
-print_foreign_item!(foreign_crate::StructOne);
+make_item_const!(foreign_crate::StructTwo);
+
+#[test]
+fn test_make_item_const() {
+    assert_eq!(ITEM_SRC, "struct MyStruct { field1 : bool, }");
+}
