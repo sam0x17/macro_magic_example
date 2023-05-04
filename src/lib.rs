@@ -1,4 +1,5 @@
-use macros_crate::*;
+#[macro_magic::use_proc]
+use macros_crate::make_item_const;
 
 make_item_const!(foreign_crate::StructTwo);
 
