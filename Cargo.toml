@@ -2,7 +2,7 @@
 members = ["foreign_crate", "macros_crate"]
 
 [package]
-name = "macro_magic_example"
+name = "user_crate"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,4 +11,4 @@ edition = "2021"
 [dependencies]
 macros_crate = { path = "macros_crate" }
 foreign_crate = { path = "foreign_crate" }
-
+macro_magic = { version = "0.3" }
