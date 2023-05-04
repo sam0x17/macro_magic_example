@@ -9,3 +9,5 @@ proc-macro = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+syn = { features = ["full"] }
+macro_magic = { version = "0.3", features = ["proc_support"] }
